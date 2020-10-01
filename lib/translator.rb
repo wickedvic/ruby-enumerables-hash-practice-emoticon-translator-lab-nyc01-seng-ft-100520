@@ -6,7 +6,7 @@ def load_library(file_path)
   emojis = YAML.load_file(file_path)
   new_hash = {}
   
-  
+  emojis.each do |key, value|
 end
 
 def get_japanese_emoticon
